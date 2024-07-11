@@ -17,7 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+a{
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -32,6 +32,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background:#4535C1;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
