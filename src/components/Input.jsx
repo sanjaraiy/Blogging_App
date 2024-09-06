@@ -3,14 +3,15 @@ import React, {useId} from 'react'
 const Input = React.forwardRef( function Input({
     label,
     type = "text",
-    className = "",
+    className = "text-black",
+    
     ...props
 }, ref){
     const id = useId()
     return (
         <div className='w-full'>
             {label && <label 
-            className='inline-block mb-1 pl-1' 
+            className={`inline-block mb-1 pl-1 ${className}` }
             htmlFor={id}>
                 {label}
             </label>
